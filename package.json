@@ -1,6 +1,6 @@
 {
   "name": "@kadiconnect/mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "mcpName": "io.github.PeterSitemba/kadiconnect",
   "description": "MCP server for KadiConnect: create a digital business card, tracked links and analytics from any MCP client. Bridges stdio to the hosted server at https://kadiconnect.com/mcp.",
   "license": "MIT",

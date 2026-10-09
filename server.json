@@ -3,7 +3,7 @@
   "name": "io.github.PeterSitemba/kadiconnect",
   "title": "KadiConnect",
   "description": "Create a digital business card, tracked links and analytics from any MCP client.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://kadiconnect.com/developers",
   "repository": {
     "url": "https://github.com/PeterSitemba/kadiconnect-mcp",
@@ -27,7 +27,7 @@
     {
       "registryType": "npm",
       "identifier": "@kadiconnect/mcp",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "transport": {
         "type": "stdio"
       },
