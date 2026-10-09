@@ -1,0 +1,47 @@
+{
+  "name": "@kadiconnect/mcp",
+  "version": "1.0.0",
+  "mcpName": "io.github.petersitemba/kadiconnect",
+  "description": "MCP server for KadiConnect: create a digital business card, tracked links and analytics from any MCP client. Bridges stdio to the hosted server at https://kadiconnect.com/mcp.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "kadiconnect-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('dist/index.js', 0o755)\"",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "kadiconnect",
+    "business-card",
+    "digital-business-card",
+    "qr-code"
+  ],
+  "homepage": "https://kadiconnect.com/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterSitemba/kadiconnect-mcp.git"
+  },
+  "bugs": {
+    "url": "https://kadiconnect.com/contact"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5"
+  }
+}
